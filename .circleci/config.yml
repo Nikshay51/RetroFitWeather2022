@@ -13,7 +13,7 @@ jobs:
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
       - checkout:
-          - path: ~/dev/ionic-test
+      - path: ~/dev/ionic-test
       - run:
           name: "run lint test"
           command: |
